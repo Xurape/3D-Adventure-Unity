@@ -70,9 +70,9 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
-
-/[Aa]ssets/[Ssamples]
-Assets/Samples/GameKit
+.DS_Store
+.idea
+.vscode
 .plastic
 .plastic/plastic.changes
 .plastic/plastic.wktree
