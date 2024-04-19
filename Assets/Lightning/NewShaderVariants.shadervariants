@@ -1,0 +1,420 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: NewShaderVariants
+  m_Shaders:
+  - first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: DIRECTIONAL LIGHTPROBE_SH
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH SHADOWS_SCREEN _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _ALPHAPREMULTIPLY_ON _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL
+        passType: 5
+      - keywords: DIRECTIONAL _ALPHAPREMULTIPLY_ON _NORMALMAP
+        passType: 5
+      - keywords: DIRECTIONAL _NORMALMAP
+        passType: 5
+      - keywords: 
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH _ALPHAPREMULTIPLY_ON
+        passType: 8
+  - first: {fileID: 64, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: SHADOWS_SPLIT_SPHERES
+        passType: 0
+  - first: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: _SUNDISK_SIMPLE
+        passType: 0
+  - first: {fileID: 10490, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 13
+  - first: {fileID: 10504, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 10506, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 10505, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: INSTANCING_ON SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+  - first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9007, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9101, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 9103, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 18001, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 18004, guid: 0000000000000000f000000000000000, type: 0}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 933532a4fcc9baf4fa0491de14d08ed7, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 8
+      - keywords: _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _NORMALMAP
+          _OCCLUSIONMAP _SHADOWS_SOFT _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 13
+      - keywords: _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+        passType: 13
+  - first: {fileID: 4800000, guid: c17132b1f77d20942aa75f8429c0f8bc, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: d6dae50ee9e1bfa4db75f19f99355220, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: e6e9a19c3678ded42a3bc431ebef7dbd, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: -6465566751694194690, guid: 8c1e1f9c57a944540bcbed763b45bfc8, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+  - first: {fileID: 4800000, guid: 69c1f799e772cb6438f56c23efccb782, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: 
+        passType: 13
+      - keywords: _ADDITIONAL_LIGHT_SHADOWS _MAIN_LIGHT_SHADOWS_CASCADE _SHADOWS_SOFT
+          _TERRAIN_INSTANCED_PERPIXEL_NORMAL
+        passType: 13
+  - first: {fileID: 4800000, guid: 8fbe92a9edfe6074e841d6dd1509bc59, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 36e335017ad71d54fbb10842863188ae, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: eac7df44977a8f84eb32bb66ab9aacb2, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 21322c8b137c66e49b86085d3c8161f6, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+  - first: {fileID: 4800000, guid: 23a71d254a4ba1943948ef4b55fe3886, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: ee7e4c9a5f6364b688a332c67fc32cca, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+  - first: {fileID: 4800000, guid: 4db90a0fe1133f64d82257532fc07625, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 00baf766089b44ee3b05e340b19c821c, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH LOD_FADE_CROSSFADE SHADOWS_SCREEN
+          _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH LOD_FADE_PERCENTAGE SHADOWS_SCREEN
+          _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH LOD_FADE_PERCENTAGE _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL LOD_FADE_PERCENTAGE
+        passType: 4
+      - keywords: LOD_FADE_PERCENTAGE POINT
+        passType: 5
+      - keywords: INSTANCING_ON LOD_FADE_CROSSFADE SHADOWS_DEPTH _METALLICGLOSSMAP
+        passType: 8
+      - keywords: INSTANCING_ON LOD_FADE_PERCENTAGE SHADOWS_DEPTH _METALLICGLOSSMAP
+        passType: 8
+      - keywords: LOD_FADE_PERCENTAGE PROCEDURAL_INSTANCING_ON SHADOWS_DEPTH _METALLICGLOSSMAP
+        passType: 8
+      - keywords: LOD_FADE_PERCENTAGE SHADOWS_DEPTH
+        passType: 8
+      - keywords: LOD_FADE_PERCENTAGE
+        passType: 10
+      - keywords: LOD_FADE_PERCENTAGE
+        passType: 11
+  - first: {fileID: 4800000, guid: 6ae32366f15a64fc19f245f040af8f21, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL GEOM_TYPE_LEAF INSTANCING_ON LIGHTPROBE_SH LOD_FADE_CROSSFADE
+          SHADOWS_SCREEN _EMISSION _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL GEOM_TYPE_LEAF INSTANCING_ON LIGHTPROBE_SH LOD_FADE_CROSSFADE
+          _EMISSION _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL GEOM_TYPE_LEAF INSTANCING_ON LIGHTPROBE_SH LOD_FADE_PERCENTAGE
+          SHADOWS_SCREEN _EMISSION _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL GEOM_TYPE_LEAF INSTANCING_ON LIGHTPROBE_SH LOD_FADE_PERCENTAGE
+          _EMISSION _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL GEOM_TYPE_LEAF INSTANCING_ON LIGHTPROBE_SH SHADOWS_SCREEN
+          _EMISSION _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL GEOM_TYPE_LEAF INSTANCING_ON LIGHTPROBE_SH _EMISSION
+          _METALLICGLOSSMAP _NORMALMAP
+        passType: 4
+      - keywords: DIRECTIONAL LOD_FADE_PERCENTAGE
+        passType: 4
+      - keywords: LOD_FADE_PERCENTAGE POINT
+        passType: 5
+      - keywords: POINT
+        passType: 5
+      - keywords: GEOM_TYPE_LEAF INSTANCING_ON LOD_FADE_PERCENTAGE SHADOWS_DEPTH
+          _EMISSION _METALLICGLOSSMAP
+        passType: 8
+      - keywords: GEOM_TYPE_LEAF INSTANCING_ON SHADOWS_DEPTH _EMISSION _METALLICGLOSSMAP
+        passType: 8
+      - keywords: GEOM_TYPE_LEAF LOD_FADE_PERCENTAGE PROCEDURAL_INSTANCING_ON SHADOWS_DEPTH
+          _EMISSION _METALLICGLOSSMAP
+        passType: 8
+      - keywords: GEOM_TYPE_LEAF PROCEDURAL_INSTANCING_ON SHADOWS_DEPTH _EMISSION
+          _METALLICGLOSSMAP
+        passType: 8
+      - keywords: LOD_FADE_PERCENTAGE SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: 
+        passType: 10
+      - keywords: LOD_FADE_PERCENTAGE
+        passType: 10
+      - keywords: 
+        passType: 11
+      - keywords: LOD_FADE_PERCENTAGE
+        passType: 11
+  - first: {fileID: 4800000, guid: f08c3c20fcac1433a9a930a6a399d5ac, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH LOD_FADE_CROSSFADE _EMISSION
+        passType: 4
+      - keywords: DIRECTIONAL LIGHTPROBE_SH _EMISSION
+        passType: 4
+      - keywords: POINT
+        passType: 5
+      - keywords: LOD_FADE_CROSSFADE SHADOWS_DEPTH _EMISSION
+        passType: 8
+      - keywords: SHADOWS_DEPTH
+        passType: 8
+      - keywords: SHADOWS_DEPTH _EMISSION
+        passType: 8
+      - keywords: 
+        passType: 10
+  - first: {fileID: 4800000, guid: 6934a0dff195b47e5913f17edb3770ec, type: 3}
+    second:
+      variants:
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH LOD_FADE_CROSSFADE SHADOWS_SCREEN
+          _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH LOD_FADE_CROSSFADE _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH LOD_FADE_PERCENTAGE SHADOWS_SCREEN
+          _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL INSTANCING_ON LIGHTPROBE_SH LOD_FADE_PERCENTAGE _METALLICGLOSSMAP
+        passType: 4
+      - keywords: DIRECTIONAL LOD_FADE_PERCENTAGE
+        passType: 4
+      - keywords: LOD_FADE_PERCENTAGE POINT
+        passType: 5
+      - keywords: INSTANCING_ON LOD_FADE_CROSSFADE SHADOWS_DEPTH _METALLICGLOSSMAP
+        passType: 8
+      - keywords: INSTANCING_ON LOD_FADE_PERCENTAGE SHADOWS_DEPTH _METALLICGLOSSMAP
+        passType: 8
+      - keywords: LOD_FADE_PERCENTAGE PROCEDURAL_INSTANCING_ON SHADOWS_DEPTH _METALLICGLOSSMAP
+        passType: 8
+      - keywords: LOD_FADE_PERCENTAGE SHADOWS_DEPTH
+        passType: 8
+      - keywords: LOD_FADE_PERCENTAGE
+        passType: 10
+      - keywords: LOD_FADE_PERCENTAGE
+        passType: 11
+  - first: {fileID: 4800000, guid: f1f73434226324b14a7261c1175d543f, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: LOD_FADE_CROSSFADE _NORMALMAP
+        passType: 0
+      - keywords: LOD_FADE_PERCENTAGE
+        passType: 0
+  - first: {fileID: 4800000, guid: 74c1aeb6f161f4fc5959aedac7310b49, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+      - keywords: POINT
+        passType: 0
+  - first: {fileID: 4800000, guid: 7970282d66a10481fb439bfdb237312a, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 0
+  - first: {fileID: 4800000, guid: 286c0a47c32f00f4e82e8a7378f1c871, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: INSTANCING_ON LOD_FADE_CROSSFADE
+        passType: 8
+      - keywords: INSTANCING_ON LOD_FADE_CROSSFADE LOD_FADE_PERCENTAGE
+        passType: 8
+      - keywords: INSTANCING_ON LOD_FADE_PERCENTAGE
+        passType: 8
+      - keywords: LOD_FADE_PERCENTAGE
+        passType: 8
+      - keywords: 
+        passType: 13
+      - keywords: LOD_FADE_PERCENTAGE
+        passType: 13
+  - first: {fileID: 4800000, guid: 201af1dd904ba734a9565138284d3a5d, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON LOD_FADE_CROSSFADE LOD_FADE_PERCENTAGE _LEAFTUMBLING
+          _LEAFTURBULENCE
+        passType: 8
+      - keywords: INSTANCING_ON LOD_FADE_CROSSFADE _LEAFTUMBLING _LEAFTURBULENCE
+        passType: 8
+      - keywords: INSTANCING_ON LOD_FADE_PERCENTAGE _LEAFTUMBLING _LEAFTURBULENCE
+        passType: 8
+      - keywords: INSTANCING_ON _LEAFTUMBLING _LEAFTURBULENCE
+        passType: 8
+      - keywords: LOD_FADE_PERCENTAGE
+        passType: 8
+      - keywords: 
+        passType: 11
+      - keywords: 
+        passType: 13
+      - keywords: LOD_FADE_PERCENTAGE
+        passType: 13
+  - first: {fileID: 4800000, guid: 59fc58d427ab6cd4fb9c8a56b4cfa24e, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: LOD_FADE_CROSSFADE
+        passType: 8
+      - keywords: 
+        passType: 13
+  - first: {fileID: 4800000, guid: 8a891dcd5cbbbc04788f800d4370c2d9, type: 3}
+    second:
+      variants:
+      - keywords: 
+        passType: 8
+      - keywords: INSTANCING_ON
+        passType: 8
+      - keywords: INSTANCING_ON LOD_FADE_CROSSFADE
+        passType: 8
+      - keywords: INSTANCING_ON LOD_FADE_CROSSFADE LOD_FADE_PERCENTAGE
+        passType: 8
+      - keywords: INSTANCING_ON LOD_FADE_PERCENTAGE
+        passType: 8
+      - keywords: LOD_FADE_PERCENTAGE
+        passType: 8
+      - keywords: 
+        passType: 13
+      - keywords: LOD_FADE_PERCENTAGE
+        passType: 13
